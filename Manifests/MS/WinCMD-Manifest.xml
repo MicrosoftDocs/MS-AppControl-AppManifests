@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Company: Microsoft; Product: Windows Command Prompt (cmd.exe) -->
 <AppManifest Id="WindowsCommandPrompt" xmlns="urn:schemas-microsoft-com:windows-defender-application-control">
     <SettingDefinition
         Name="EnableAppControl"
