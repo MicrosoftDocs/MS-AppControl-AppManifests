@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppManifest Id="WindowsCommandPrompt" xmlns="urn:schemas-microsoft-com:windows-defender-application-control">
+    <SettingDefinition
+        Name="EnableAppControl"
+        Type="Bool"
+        IgnoreAuditPolicies="false"
+        />
+</AppManifest>
