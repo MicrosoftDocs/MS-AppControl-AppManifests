@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Company: Microsoft; Product: Windows Powershell (powershell.exe) and Powershell 7 (pwsh.exe) -->
+<AppManifest Id="Powershell" xmlns="urn:schemas-microsoft-com:windows-defender-application-control">
+    <!--
+        When specified, scripts will be blocked from executing on
+        policy failure vs being allowed to run in Constrained
+        Language Mode.
+
+        (WldpCanExecute* family will return WLDP_EXECUTION_POLICY_BLOCKED).
+
+        Supported on both PS7 and Windows PowerShell
+    -->
+    <SettingDefinition
+        Name="BlockScriptOnPolicyFailure"
+        Type="Bool"
+        IgnoreAuditPolicies="true"
+        />
+</AppManifest>
