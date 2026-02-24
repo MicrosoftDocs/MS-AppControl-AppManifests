@@ -6,4 +6,9 @@
         Type="Bool"
         IgnoreAuditPolicies="false"
         />
+    <SettingDefinition
+        Name="LockBatchFilesWhenInUse"
+        Type="Bool"
+        IgnoreAuditPolicies="true"
+        />
 </AppManifest>
