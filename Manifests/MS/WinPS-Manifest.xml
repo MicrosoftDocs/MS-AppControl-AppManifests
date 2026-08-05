@@ -22,7 +22,6 @@
 
         Examples of blocked executions:
 
-
             pwsh -NoExit -File ./file.ps1
             pwsh -Command Get-ChildItem
             pwsh
