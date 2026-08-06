@@ -15,4 +15,27 @@
         Type="Bool"
         IgnoreAuditPolicies="true"
         />
+    <!--
+        When specified, calling PowerShell with arguments that do not result
+        in the execution of a specified file and subsequently exiting will
+        be blocked.
+
+        Examples of blocked executions:
+
+            pwsh -NoExit -File ./file.ps1
+            pwsh -Command Get-ChildItem
+            pwsh
+            "Get-ChildItem" | pwsh -File -
+            pwsh -EncodedCommand etc
+
+        Examples of allowed executions:
+
+            pwsh -File ./file.ps1
+            pwsh -NoProfile -NonInteractive -File ./file.ps1 arg1 arg2
+    -->
+    <SettingDefinition
+        Name="FileOnlyEntry"
+        Type="Bool"
+        IgnoreAuditPolicies="true"
+        />
 </AppManifest>
